@@ -11,6 +11,7 @@ const uiSlice = createSlice({
       state.notification = {
         status: action.payload.status,
         title: action.payload.title,
+        message: action.payload.message
       };
     },
   },

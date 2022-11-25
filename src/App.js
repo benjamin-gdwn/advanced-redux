@@ -31,9 +31,9 @@ useEffect(() => {
       throw new Error('Sending Cart Data Failed');
     }
     dispatch(uiActions.showNotification({
-      status: 'Success',
+      status: 'success',
       title: 'Success',
-      message: 'Sent Cart Data!'
+      message: 'Sent Cart Data!',
     }))
     
   }
